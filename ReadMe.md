@@ -12,4 +12,4 @@ Learn more on the [Urban Influence Blog](http://urbaninfluence.com/2015/05/make-
 Sure, why not
 
 [Demo 1](http://urbaninfluence.com/demos/keyframe-slider/demo1.html)
-[Demo 2 - webkit only](http://urbaninfluence.com/demos/keyframe-slider/demo2.html)
+[Demo 2 - webkit only](http://urbaninfluence.com/demos/keyframe-slider/demo2.html)# paulmeier
