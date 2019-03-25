@@ -1,0 +1,17 @@
+#body-background-about {
+  background-image: url("../images/bgr-code.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
