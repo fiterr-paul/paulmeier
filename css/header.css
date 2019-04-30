@@ -102,7 +102,7 @@
 }
 
 .nav ul li#current {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid #fff;
   box-sizing: border-box;
   margin-bottom: -2px;
