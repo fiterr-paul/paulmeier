@@ -7,3 +7,56 @@
   width: 100%;
 }
 
+.page-title-h1 {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2em;
+  font-weight: 400;
+  height: 50px;
+  justify-content: flex-start;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  border: 1px solid rgb(138, 138, 138);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-row {
+  align-items: center;
+  border: 1px solid rgb(138, 138, 138);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: flex-start;
+  /* width: 100%; */
+}
+
+.form-row-label-col-3,
+.form-row-label {
+  /* min-width: 150px; */
+  /* width: 30%; */
+}
+
+.form-row-field-col-3 {
+  /* width: 50% */
+}
+
+.form-row-field {
+  /* width: 70%; */
+}
+
+.form-label {
+  color: #fff;
+}
+
+.form-field {
+  color: #fff;
+}

@@ -36,17 +36,20 @@
   height: 100%;
   justify-content: flex-end;
 }
+
 #site-logo-top-link {
   /* display: flex; */
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .site-logo-top {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   height: 46px;
 }
+
 .site-title-top {
   align-items: flex-start;
   display: flex;
@@ -65,13 +68,14 @@
 }
 
 .site-title-top-font {
-  color: #fff;
-  font-size: 0.6em;
+  color: rgb(255, 255, 255);
+  font-size: 0.7em;
   font-weight: 500;
   line-height: 1em;
-  min-width: 250px;
+  min-width: 300px;
   text-transform: capitalize;
 }
+
 .nav {
   align-items: center;
   display: flex;
@@ -84,22 +88,33 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .nav ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  box-sizing: border-box;
   display: flex;
   float: left;
-  padding: 0px 8px;
+  outline: none;
+  padding: 0px 15px;
+  margin-bottom: -1px;
   margin-left: 20px;
+}
+
+.nav ul li:hover {
+  border-bottom: solid 1px rgb(255, 255, 255);
+  box-sizing: border-box;
 }
 
 .nav ul li a {
   align-items: center;
+  color: rgb(255, 255, 255);
   display: flex;
   height: inherit;
+  outline: none;
 }
 
 .nav ul li.first {
@@ -108,9 +123,9 @@
 
 .nav ul li#current {
   background-color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgb(255, 255, 255);
   box-sizing: border-box;
-  margin-bottom: -2px;
+  margin-bottom: -1px;
 }
 
 #nav-menu-icon-mobile {
@@ -122,6 +137,7 @@
     max-width: 800px;
     min-width: 600px;
   }
+
   #nav-menu-icon-mobile {
     display: none;
   }
@@ -163,8 +179,6 @@
     background-position-x: left;
     background-position-y: center;
     background-size: contain;
-    /* height: 50px; */
-    /* width: 50px; */
   }
 
   .site-title-top {
@@ -223,18 +237,6 @@
     width: 36px;
     -webkit-font-smoothing: antialiased;
   }
-
-  /* .bars::before {
-    content: "\f0c9";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-  }
-
-  .bars::after {
-    content: "\f805";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-  } */
 
   .dropdown:active .fa-bars,
   .dropdown:focus .fa-bars, 

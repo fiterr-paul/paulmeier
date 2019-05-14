@@ -36,7 +36,7 @@
 }
 @media screen and (min-width: 1081px) {
   .lg-hide {
-    display: none;
+    display: none!important;
   }
 }
 
@@ -79,7 +79,7 @@
   }
 
   .md-hide {
-    display: none;
+    display: none!important;
   }
 }
 
@@ -123,6 +123,6 @@
   }
 
   .sm-hide {
-    display: none;
+    display: none!important;
   }
 }

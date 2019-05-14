@@ -1,7 +1,7 @@
 .container-bottom {
   align-items: center;
-  background-color: rgba(0, 0, 0, 1);
-  border-top: 1px solid #9a9a9a;
+  background-color: rgb(45, 45, 45);
+  border-top: 1px solid rgb(100, 100, 100);
   display: flex;
   flex-direction: row;
   height: 50px;
@@ -42,7 +42,7 @@
 }
 
 .footer-text {
-  color: #ccc;
+  color: rgb(222, 222, 222);
   font-size: 0.6em;
   font-weight: 400;
   line-height: 1em;
@@ -60,10 +60,13 @@
 #footer-links-email {
   text-transform: lowercase;
 }
-
+.footer-links a, 
+.footer-social-links a {
+  color: rgb(222, 222, 222);
+}
 .footer-links,
 .footer-social-links {
-  color: #ccc;
+  color: rgb(222, 222, 222);
   font-size: 0.6em;
   font-weight: 400;
   line-height: 1em;
