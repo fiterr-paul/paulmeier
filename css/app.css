@@ -316,7 +316,7 @@ label,
 select,
 button,
 input {
-  cursor: pointer; }
+  cursor: default; }
 
 /**
  * Re-set default cursor for disabled elements.
@@ -481,7 +481,7 @@ body {
 /*----------------------------------------------   
 --Typography: Headers
 -----------------------------------------------  */
-h1 {
+/* h1 {
   font-size: 2.75em;
   color: rgba(255, 255, 255, 0.8);
   font-family: "playfair display", georgia, times, serif;
@@ -490,19 +490,19 @@ h1 {
   line-height: 1.2; }
   @media (min-width: 58em) {
     h1 {
-      font-size: calc(2.75em + 70%); } }
+      font-size: calc(2.75em + 70%); } } */
 
 /*----------------------------------------------   
 --Typography: paragraph
 -----------------------------------------------  */
-p {
+/* p {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300; }
+  font-weight: 300; } */
 
 /*----------------------------------------------   
 --Links
 -----------------------------------------------  */
-a {
+/* a {
   color: rgb(217, 217, 217);
   -webkit-transition: color 0.7s ease;
   -moz-transition: color 0.7s ease;
@@ -511,7 +511,7 @@ a {
     color: rgb(255, 255, 255);
     -webkit-transition: color 0.7s ease;
     -moz-transition: color 0.7s ease;
-    transition: color 0.7s ease; }
+    transition: color 0.7s ease; } */
 
 /*----------------------------------------------   
 --Setup
@@ -557,7 +557,7 @@ body {
     height: 100%;
     width: 100%;
     /* background: rgba(118, 144, 164, 0.4); */
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     z-index: 0; }
   .sect-banner .v-center {
     position: relative;
