@@ -79,15 +79,20 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  height: 100%;
+  /* height: 100%; */
   justify-content: flex-start;
   margin-bottom: 10px;
+  min-height: 40px;
   width: 100%;
 }
 
 .form-row-label-col-3,
 .form-row-label {
   min-width: 60px;
+}
+
+#form-row-enquiry {
+  min-height: 200px;
 }
 
 .form-label {
@@ -109,7 +114,7 @@
   border-radius: 3px;
   color: rgb(255, 255, 255);
   font-size: 16px;
-  height: 40px;
+  min-height: 40px;
   line-height: 1.6em;
   padding: 0px 10px;
   text-transform: capitalize;

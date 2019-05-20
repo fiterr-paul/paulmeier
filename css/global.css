@@ -103,6 +103,9 @@ body {
 @media screen and (max-width: 600px) {
   .main-container-content {
     height: calc(100% - 230px);
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+    position: relative;
   }
 
   .container-content {
