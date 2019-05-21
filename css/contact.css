@@ -79,7 +79,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  /* height: 100%; */
   justify-content: flex-start;
   margin-bottom: 10px;
   min-height: 40px;
@@ -149,7 +148,7 @@
   margin-left: 5px;
 }
 
-#enquiry {
+.form-row-label-enquiry {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
@@ -162,4 +161,20 @@ textarea.form-textarea {
   height: 200px!important;
   padding: 7px 10px;
   resize: none;
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px)  {
+  .form-row-field-col-3 {
+    width: 50%;
+  }
+
+  .form-row-field {
+    width: 100%;
+  }
+  
+  .form-row-label-col-3,
+  .form-row-label-enquiry,
+  .form-row-label {
+    display: none;
+  }
 }
