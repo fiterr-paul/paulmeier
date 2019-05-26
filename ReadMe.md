@@ -12,10 +12,10 @@ Documentation for Coder Academy Term 1 Portfolia Project - A website written in 
 Project uses a CSS Keyframes Slider written by Stephen Scaff (https://github.com/stephenscaff/keyframes-slider)
 
 ## Master Repository
-[Paul Meier](https://github.com/fiterr-paul/portfolio)
+[Github Repository](https://github.com/fiterr-paul/portfolio) for Paul Meier
 
 ### Trello Board
-[Trello Board for Portfolio Project](https://trello.com/b/4nYwKb5p/html-css-portfolio)
+[Trello Board](https://trello.com/b/4nYwKb5p/html-css-portfolio) for Portfolio Project
 
 
 
