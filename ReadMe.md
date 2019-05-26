@@ -15,7 +15,9 @@ Visit [www.paulmeier.com.au](http://www.paulmeier.com.au) to see the website liv
 [Github Repository](https://github.com/fiterr-paul/portfolio) for Paul Meier
 
 ## Description
-This is a website about myself (Paul Meier). The website is mostly written in pure HTML & CSS, with the exception of the Contact pages which contain a few lines of PHP (written by myself) to handle submission of the contact form. I did this to avoid using an external form handling service.
+This is a website about myself (Paul Meier). The website is mostly written in pure HTML & CSS, with the exception of the 'contact' pages which contain a few lines of PHP (written by myself) to handle submission of the contact form. I did this to avoid using an external form handling service.
+
+The website is deployed on my own live server with a domain name that I purchased.
 
 The project uses a CSS Keyframes Slider written by Stephen Scaff (https://github.com/stephenscaff/keyframes-slider)
 
