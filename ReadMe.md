@@ -53,3 +53,14 @@ I used a fixed-centered column/container for the main content of my website, whi
 ![Screenshot 1](/docs/wireframe-3.png)
 
 
+## Page 'Concepts'
+
+I wanted to make the page background images viewable through the page content, so I used semi-transparent page containers. Also, the website header and main navigation are also semi-transparent, while the website footer is left completely opaque.
+
+![Screenshot 1](/docs/design-1.png)
+
+![Screenshot 1](/docs/design-2.png)
+
+![Screenshot 1](/docs/design-3.png)
+
+
