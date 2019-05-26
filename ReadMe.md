@@ -11,10 +11,19 @@ Documentation for Coder Academy Term 1 Portfolia Project - A website written in 
 ## Dependencies
 Project uses a CSS Keyframes Slider written by Stephen Scaff (https://github.com/stephenscaff/keyframes-slider)
 
-##Learn More
+## Master Repository
+[Paul Meier](https://github.com/fiterr-paul/portfolio)
+
+### Trello Board
+[Trello Board for Portfolio Project](https://trello.com/b/4nYwKb5p/html-css-portfolio)
+
+
+
+
+## Learn More
 Learn more on the [Urban Influence Blog](http://urbaninfluence.com/2015/05/make-a-background-image-slider-with-css-keyframes)
 
-##Demo
+## Demo
 Sure, why not
 
 [Demo 1](http://urbaninfluence.com/demos/keyframe-slider/demo1.html)
