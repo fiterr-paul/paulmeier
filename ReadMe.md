@@ -71,7 +71,7 @@ I wanted to make the page background images viewable through the page content, s
 
 ## Short Answer Q&As
 
-Question 1
+### Question 1
 
 Describe key events in the development of the internet from the 1980s to today.
 
@@ -103,7 +103,7 @@ Today, the connectivity of the early internet is being extended further with the
 
 
 
-Question 2
+###  Question 2
 
 Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers.
 
@@ -121,7 +121,7 @@ After compiling all of the packets of information, the users browser will render
 
 
 
-Question 3
+### Question 3
 
 Reflect on one aspect of the development of internet technologies and how it has contributed to the world today.
 
