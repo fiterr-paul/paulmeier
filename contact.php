@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 <head>
@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>Entrepreneur | Paul Meier</title>
+<title>Contact | Paul Meier</title>
 <meta name="author" content="Paul Anthony Meier">
 <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -24,7 +24,7 @@
 
 <!-- Body
 ================================================== -->
-<body id="body-background-entrepreneur">
+<body id="body-background-contact">
 	<div id="body-overlay">
 		<main role="main">
 
@@ -55,8 +55,8 @@
 									<li class="nav-btn first"><a href="http://www.paulmeier.com.au">home</a></li>
 									<li class="nav-btn"><a href="./developer.html">dev</a></li>
 									<li class="nav-btn"><a href="./coach.html">coach</a></li>
-									<li id="current" class="nav-btn"><a href="./entrepreneur.html">entrepreneur</a></li>
-									<li class="nav-btn last"><a href="./contact.php">contact</a></li>
+									<li class="nav-btn"><a href="./entrepreneur.html">entrepreneur</a></li>
+									<li id="current" class="nav-btn last"><a href="./contact.php">contact</a></li>
 								</ul>
 								<div class="nav-mobile dropdown md-hide lg-hide">
 									<input type="checkbox" id="nav-toggle">
@@ -81,20 +81,46 @@
 			================================================== -->	
 			<div class="main-container-content">
 				<div class="container-content lg-col-12 md-col-12 sm-col-12">
-					<div class="container-content-full lg-col-12 md-col-12 sm-col-12">
-						<div class="page-title-h1">entrepreneur</div>
-						<div class="page-section page-section-last">
-							<div class="page-section-left">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
-								<p class="company-image"><img class="company-logo" src="./images/logo-parking-port.png" alt="Parking Port"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
-								<p class="company-image"><img class="company-logo" src="./images/logo-paulmfitness.png" alt="Paul Meier Fitness"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
-								<p class="company-image"><img class="company-logo" src="./images/logo-fiterr.png" alt="FITERR"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quia corrupti eius fuga eum voluptatum aut et nam harum commodi error reprehenderit velit, culpa dolores ut itaque aliquid? Sit, quia!</p>
+					<div class="container-content-left lg-col-8 md-col-7 sm-col-12">
+						<div class="page-title-h1">contact paul</div>
+						<form action="contact-thankyou.php" method="post" id="contact-form" class="contact-form lg-col-12 md-col-12 sm-col-12" autocomplete="off">
+							<div class="form-row lg-col-12">
+								<div class="form-row-label-col-3 lg-col-2"><p class="form-label">name</p></div>
+								<div id="firstname" class="form-row-field-col-3 lg-col-5"><input name="senderFirstname" type="text" placeholder="first name" required></div>
+								<div id="surname" class="form-row-field-col-3 lg-col-5"><input name="senderSurname" type="text" placeholder="surname"></div>
 							</div>
-							<div class="page-section-right">
-								<img src="./images/paul-entrepreneur.jpg" alt="Paul Meier">
+							<div class="form-row">
+								<div class="form-row-label lg-col-2"><p class="form-label">email</p></div>
+								<div class="form-row-field lg-col-10"><input name="senderEmail" type="email" placeholder="email@domain.com" required></div>
 							</div>
+							<div class="form-row">
+								<div class="form-row-label lg-col-2"><p class="form-label">phone</p></div>
+								<div class="form-row-field lg-col-10"><input name="senderPhone" type="tel" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" placeholder="012345678"></div>
+							</div>
+							<div id="form-row-enquiry" class="form-row">
+								<div id="" class="form-row-label form-row-label-enquiry lg-col-2"><p class="form-label">enquiry</p></div>
+								<div class="form-row-field lg-col-10"><textarea class="form-textarea" name="senderEnquiry" resize="none" placeholder="What is your enquiry about?" required></textarea></div>
+							</div>
+							<div class="form-row">
+								<div class="form-row-label-col-3 lg-col-2 sm-col-2"></div>
+								<div class="form-row-field-col-3 lg-col-5 sm-hide"></div>
+								<div class="form-row-field-col-3 lg-col-5 sm-col-10"><input type="submit" value="Submit" name="submit"></div>
+							</div>	
+						</form>
+					</div>
+					<div class="container-content-right lg-col-4 md-col-5 sm-col-12">
+						<div class="page-title-h1">other contacts</div>
+						<div class="container-content-right-section">
+							<div class="section-title">join paul on social media:</div>
+							<div class="contact-social-links"><a href="https://linkedin.com/in/paulanthonymeier/" target="_blank"><i class="fab fa-linkedin"></i><span class="">linkedin</span></a></div>
+							<div class="contact-social-links"><a href="https://facebook.com/paulanthonymeier/" target="_blank"><i class="fab fa-facebook"></i><span class="">facebook</span></a></div>
+							<div class="contact-social-links"><a href="https://instagram.com/fitpaulm/" target="_blank"><i class="fab fa-instagram"></i><span class="">instagram</span></a></div>
+						</div>
+						<div class="container-content-right-section container-content-right-section-additional">
+							<div class="section-title">additional contacts:</div>
+							<div class="contact-social-links"><a href="https://github.com/fiterr-paul/" target="_blank"><i class="fab fa-github-square"></i><span class="">gitHub</span></a></div>
+							<div class="contact-social-links"><a href="tel:0422050590" target=""><i class="fas fa-mobile-alt"></i><span class="">0422 050 590</span></a></div>
+							<div class="contact-social-links"><a href="mailto:paul@paulmeier.com.au" target=""><i class="far fa-envelope"></i><span class="">paul@paulmeier.com.au</span></a></div>
 						</div>
 					</div>
 				</div>

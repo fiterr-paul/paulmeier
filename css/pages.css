@@ -1,0 +1,431 @@
+/**********  Index - Page Styles  **********/
+
+.homepage-banner {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.homepage-banner-title {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.homepage-banner-subtitle {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+#homepage-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 4.5em;
+  font-weight: 300;
+  line-height: 1em;
+  text-transform: capitalize;
+}
+
+#homepage-subtitle {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+/**********  Contact - Page Styles  **********/
+
+#body-background-contact {
+  background-image: url("../images/bgr-macbook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-form-avatar {
+  border: solid 1px rgb(177, 177, 177);
+  border-radius: 100px;
+  margin-right: 10px; 
+  overflow: hidden;
+}
+
+.contact-form-signature {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.contact-social-links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  font-weight: 300;
+  min-height: 40px;
+  justify-content: flex-start;
+  line-height: 2em;
+  text-transform: lowercase;
+}
+
+.contact-social-links .fas,
+.contact-social-links .far,
+.contact-social-links .fab,
+.contact-social-links a .fab {
+  margin-right: 8px;
+}
+
+.contact-social-links a {
+  color: rgb(255, 255, 255);
+}
+
+.contact-social-links .fas.fa-mobile-alt,
+.contact-social-links .fab.fa-linkedin,
+.contact-social-links .text {
+  color: rgb(255, 255, 255);
+}
+
+.contact-form {
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-row {
+  align-items: center;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  min-height: 40px;
+  width: 100%;
+}
+
+.form-row-label-col-3,
+.form-row-label {
+  min-width: 60px;
+}
+
+#form-row-enquiry {
+  min-height: 200px;
+}
+
+.form-label {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 300;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form input[type="submit"],
+.contact-form textarea {
+  background-color: rgb(45, 45, 45);
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  min-height: 40px;
+  line-height: 1.6em;
+  padding: 0px 10px;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.contact-form input[type="email"] {
+  text-transform: lowercase;
+}
+
+.contact-form textarea {
+  text-transform: none;
+}
+
+.contact-form input[type="submit"] {
+  background-color: rgb(45, 45, 45);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.contact-form input[type="submit"]:focus,
+.contact-form input[type="submit"]:hover {
+  background-color: rgb(23, 23, 23);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+#firstname {
+  margin-right: 5px;
+}
+
+#surname {
+  margin-left: 5px;
+}
+
+.form-row-label-enquiry {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+  justify-content: flex-start
+}
+
+textarea.form-textarea {
+  font-size: 16px;
+  height: 200px!important;
+  padding: 7px 10px;
+  resize: none;
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px)  {
+  .form-row-field-col-3 {
+    width: 50%;
+  }
+
+  .form-row-field {
+    width: 100%;
+  }
+  
+  .form-row-label-col-3,
+  .form-row-label-enquiry,
+  .form-row-label {
+    display: none;
+  }
+}
+
+/**********  Developer - Page Styles  **********/
+
+#body-background-developer {
+  background-image: url("../images/bgr-monitors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.page-section-devicons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+i.devicon-ruby-plain-wordmark,
+i.devicon-rails-plain-wordmark,
+i.devicon-javascript-plain,
+i.devicon-nodejs-plain-wordmark,
+i.devicon-html5-plain-wordmark,
+i.devicon-css3-plain-wordmark,
+i.devicon-php-plain,
+i.devicon-react-original-wordmark,
+i.devicon-express-original,
+i.devicon-mongodb-plain-wordmark,
+i.devicon-mysql-plain-wordmark,
+i.devicon-postgresql-plain-wordmark {
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 5em;
+  line-height: 1em!important;
+  margin: 10px;
+  padding: 6px;
+}
+
+/**********  Coach - Page Styles  **********/
+
+#body-background-gym {
+  background-image: url("../images/bgr-gym.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.page-section-coachquals {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-right: 40px;
+}
+
+.coachquals-row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.coachquals-row-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+i.fa-utensils,
+i.fa-weight,
+i.fa-balance-scale,
+i.fa-dumbbell,
+i.fa-heartbeat,
+i.fa-graduation-cap {
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-style: normal;
+  font-size: 1.6em;
+  font-variant: normal;
+  margin-right: 10px;
+  padding: 6px;
+  text-align: center;
+  text-rendering: auto;
+  line-height: 1;
+  width: 54px;
+}
+
+p.title {
+  color: rgb(255, 255, 255);
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+p.description {
+  color: rgb(230, 230, 230);
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+/**********  Entrepreneur - Page Styles  **********/
+
+#body-background-entrepreneur {
+  background-image: url("../images/bgr-buildings.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+div.page-section-left img.company-logo {
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  height: 50px;
+  width: auto;
+}
+
+.company-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+
+  .page-section-devicons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  i.devicon-ruby-plain-wordmark,
+  i.devicon-rails-plain-wordmark,
+  i.devicon-javascript-plain,
+  i.devicon-nodejs-plain-wordmark,
+  i.devicon-html5-plain-wordmark,
+  i.devicon-css3-plain-wordmark,
+  i.devicon-php-plain,
+  i.devicon-react-original-wordmark,
+  i.devicon-express-original,
+  i.devicon-mongodb-plain-wordmark,
+  i.devicon-mysql-plain-wordmark,
+  i.devicon-postgresql-plain-wordmark {
+    font-size: 5em;
+  }
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 601px)  {
+
+  .page-section-devicons {
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  i.devicon-ruby-plain-wordmark,
+  i.devicon-rails-plain-wordmark,
+  i.devicon-javascript-plain,
+  i.devicon-nodejs-plain-wordmark,
+  i.devicon-html5-plain-wordmark,
+  i.devicon-css3-plain-wordmark,
+  i.devicon-php-plain,
+  i.devicon-react-original-wordmark,
+  i.devicon-express-original,
+  i.devicon-mongodb-plain-wordmark,
+  i.devicon-mysql-plain-wordmark,
+  i.devicon-postgresql-plain-wordmark {
+    font-size: 3.8em;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .page-section-devicons {
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  i.devicon-ruby-plain-wordmark,
+  i.devicon-rails-plain-wordmark,
+  i.devicon-javascript-plain,
+  i.devicon-nodejs-plain-wordmark,
+  i.devicon-html5-plain-wordmark,
+  i.devicon-css3-plain-wordmark,
+  i.devicon-php-plain,
+  i.devicon-react-original-wordmark,
+  i.devicon-express-original,
+  i.devicon-mongodb-plain-wordmark,
+  i.devicon-mysql-plain-wordmark,
+  i.devicon-postgresql-plain-wordmark {
+    font-size: 2em;
+  }
+
+}

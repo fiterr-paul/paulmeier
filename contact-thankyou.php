@@ -1,4 +1,20 @@
-<!DOCTYPE html>
+<?php
+if($_POST["submit"]) {
+    $recipient="paul@fiterr.com";
+    $subject="Contact Form Submission";
+		$senderFistname=$_POST["senderFirstname"];
+		$senderSurname=$_POST["senderSurname"];
+		$senderEmail=$_POST["senderEmail"];
+		$senderPhone=$_POST["senderPhone"];
+    $message=$_POST["senderEnquiry"];
+
+    $mailBody="Name: $senderFistname $senderSurname\n\nEmail: $senderEmail\n\nPhone: $senderPhone\n\n\n$message";
+
+		mail($recipient, $subject, $mailBody, "From: $senderFistname $senderSurname <$senderEmail>");
+	}
+?>
+
+<!DOCTYPE php>
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 <head>
@@ -56,20 +72,20 @@
 									<li class="nav-btn"><a href="./developer.html">dev</a></li>
 									<li class="nav-btn"><a href="./coach.html">coach</a></li>
 									<li class="nav-btn"><a href="./entrepreneur.html">entrepreneur</a></li>
-									<li id="current" class="nav-btn last"><a href="./contact.html">contact</a></li>
+									<li id="current" class="nav-btn last"><a href="./contact.php">contact</a></li>
 								</ul>
-								<div class="nav-mobile md-hide lg-hide">
-									<div id="navmobilebtn" class="dropdown">
-										<div class="nav-mobile-btn">
-											<i class="fas fa-bars"></i>
-											<i class="fas fa-hamburger"></i>
-										</div>
-										<ul class="nav-mobile-menu">
-											<a class="nav-mobile-menu-item" href="http://www.paulmeier.com.au"><li>Home</li></a>
-											<a class="nav-mobile-menu-item" href="./about.html"><li>About</li></a>
-											<a class="nav-mobile-menu-item" href="./contact.html"><li>Contact</li></a>
-										</ul>
-									</div>
+								<div class="nav-mobile dropdown md-hide lg-hide">
+									<input type="checkbox" id="nav-toggle">
+									<label for="nav-toggle" class="nav-mobile-btn">
+										<i class="fas fa-bars"></i>
+									</label>
+									<ul class="nav-mobile-menu">
+										<a class="nav-mobile-menu-item" href="http://www.paulmeier.com.au"><li>home</li></a>
+										<a class="nav-mobile-menu-item" href="./developer.html"><li>developer</li></a>
+										<a class="nav-mobile-menu-item" href="./coach.html"><li>coach</li></a>
+										<a class="nav-mobile-menu-item" href="./entrepreneur.html"><li>entrepreneur</li></a>
+										<a class="nav-mobile-menu-item" href="./contact.php"><li>contact</li></a>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -82,44 +98,33 @@
 			<div class="main-container-content">
 				<div class="container-content lg-col-12 md-col-12 sm-col-12">
 					<div class="container-content-left lg-col-8 md-col-7 sm-col-12">
-						<div class="page-title-h1">contact paul</div>
-						<form action="" autocomplete="off" id="contact-form" class="contact-form lg-col-12 md-col-12 sm-col-12">
-							<div class="form-row lg-col-12">
-								<div class="form-row-label-col-3 lg-col-2"><p class="form-label">name</p></div>
-								<div id="firstname" class="form-row-field-col-3 lg-col-5"><input name="firstname" type="text" placeholder="first name" required></div>
-								<div id="surname" class="form-row-field-col-3 lg-col-5"><input name="surname" type="text" placeholder="surname"></div>
-							</div>
-							<div class="form-row">
-								<div class="form-row-label lg-col-2"><p class="form-label">email</p></div>
-								<div class="form-row-field lg-col-10"><input name="email" type="email" placeholder="email@domain.com" required></div>
-							</div>
-							<div class="form-row">
-								<div class="form-row-label lg-col-2"><p class="form-label">phone</p></div>
-								<div class="form-row-field lg-col-10"><input name="phone" type="tel" pattern="[0-9]{2}[0-9]{4}[0-9]{4}" placeholder="012345678"></div>
-							</div>
-							<div id="form-row-enquiry" class="form-row">
-								<div id="" class="form-row-label form-row-label-enquiry lg-col-2"><p class="form-label">enquiry</p></div>
-								<div class="form-row-field lg-col-10"><textarea class="form-textarea" name="enquiry" resize="none" placeholder="What is your enquiry about?" required></textarea></div>
-							</div>
-							<div class="form-row">
-								<div class="form-row-label-col-3 lg-col-2 sm-col-2"></div>
-								<div class="form-row-field-col-3 lg-col-5 sm-hide"></div>
-								<div class="form-row-field-col-3 lg-col-5 sm-col-10"><input type="submit" value="Submit"></div>
-							</div>	
-						</form>
+						<div class="page-title-h1">thank you,
+							<span style="text-decoration: underline;"><?php echo "$senderFistname" ?></span>
+						</div>
+						<div class="section-text">
+							<p>Your enquiry has been sent successfully!<br/>
+							I will do my best to get back to you as soon as possible.</p>
+						</div>
+						<div class="section-text">
+							<p style="margin-top: 10px;">Kind Regards,</p>
+						</div>
+						<div class="section-text">
+							<div class="contact-form-avatar"><img src="./images/profile-paul-1240x1240.jpg" alt="Paul Meier" style="height:54px;width:54px;"></div>
+							<div class="contact-form-signature"><img src="./images/paul-signature-white.png" alt="Paul Meier" style="height:34px;"></div>
+						</div>
 					</div>
 					<div class="container-content-right lg-col-4 md-col-5 sm-col-12">
 						<div class="page-title-h1">other contacts</div>
 						<div class="container-content-right-section">
 							<div class="section-title">join paul on social media:</div>
-							<div class="contact-social-links"><a href="https://linkedin.com/in/paulanthonymeier/" target="_blank"><i class="fab fa-linkedin"></i><span class="">linkedIn</span></a></div>
+							<div class="contact-social-links"><a href="https://linkedin.com/in/paulanthonymeier/" target="_blank"><i class="fab fa-linkedin"></i><span class="">linkedin</span></a></div>
 							<div class="contact-social-links"><a href="https://facebook.com/paulanthonymeier/" target="_blank"><i class="fab fa-facebook"></i><span class="">facebook</span></a></div>
 							<div class="contact-social-links"><a href="https://instagram.com/fitpaulm/" target="_blank"><i class="fab fa-instagram"></i><span class="">instagram</span></a></div>
 						</div>
 						<div class="container-content-right-section container-content-right-section-additional">
 							<div class="section-title">additional contacts:</div>
 							<div class="contact-social-links"><a href="https://github.com/fiterr-paul/" target="_blank"><i class="fab fa-github-square"></i><span class="">gitHub</span></a></div>
-							<div class="contact-social-links"><i class="fas fa-mobile-alt"></i><span class="text">0422 050 590</div>
+							<div class="contact-social-links"><a href="tel:0422050590" target=""><i class="fas fa-mobile-alt"></i><span class="">0422 050 590</span></a></div>
 							<div class="contact-social-links"><a href="mailto:paul@paulmeier.com.au" target=""><i class="far fa-envelope"></i><span class="">paul@paulmeier.com.au</span></a></div>
 						</div>
 					</div>
@@ -135,7 +140,7 @@
 							<div class="footer-text">paul meier &copy; copyright 2019</div>
 						</div>
 						<div class="container-footer-right lg-col-9 md-col-8 sm-col-12">
-							<div class="footer-links"><i class="fas fa-mobile-alt"></i>&nbsp;0422 050 590</div>
+							<div class="footer-links"><a href="tel:0422050590" target=""><i class="fas fa-mobile-alt"></i><span class="">&nbsp;0422 050 590</span></a></div>
 							<div id="footer-links-email" class="footer-links"><a href="mailto:paul@paulmeier.com.au"><i class="far fa-envelope"></i>&nbsp;paul@paulmeier.com.au</a></div>
 							<div class="footer-social">
 								<div class="footer-social-links"><a href="https://github.com/fiterr-paul/" target="_blank"><i class="fab fa-github-square"></i><span class="sm-hide md-hide">&nbsp;GitHub</span></a></div>
