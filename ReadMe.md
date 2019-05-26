@@ -35,6 +35,11 @@ View the [Trello Board](https://trello.com/b/4nYwKb5p/html-css-portfolio) for th
 ![Screenshot 3](/docs/trello-3.png)
 
 
+## Website 'Sitemap'
+
+[![App User Stories](/docs/icon-pdf.png)](/docs/paulmeier.com-sitemap.pdf)
+
+
 ## Project 'Mood Board'
 
 I wanted to have a dark theme and 'professional' "feel" for my portfolio website using bold white fonts against semi-transparent dark backgrounds with images behind them.
