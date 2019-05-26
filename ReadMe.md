@@ -4,7 +4,7 @@
 Documentation for Coder Academy Term 1 Portfolia Project - A website written in HTML/CSS about myself (Paul Meier).
 
 ## Contributors
-| [![Paul Meier](/assets/paul-meier-70px-70px.jpg)](https://github.com/fiterr-paul) |
+| [![Paul Meier](/docs/paul-meier-70px-70px.jpg)](https://github.com/fiterr-paul) |
 |-----------|
 | Paul Meier |
 
@@ -22,9 +22,9 @@ The project uses a CSS Keyframes Slider written by Stephen Scaff (https://github
 ## Trello Board for Project
 [Trello Board](https://trello.com/b/4nYwKb5p/html-css-portfolio) for Portfolio Project
 
-![Screenshot 1](/assets/trello-1.png)
+![Screenshot 1](/docs/trello-1.png)
 
-![Screenshot 2](/assets/trello-2.png)
+![Screenshot 2](/docs/trello-2.png)
 
-![Screenshot 3](/assets/trello-3.png)
+![Screenshot 3](/docs/trello-3.png)
 
