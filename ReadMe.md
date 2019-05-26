@@ -1,6 +1,12 @@
-#Keyframes Slider
+#Paul Meier Portfolio
 
-A pure css approach to creating a full height & width background-image slider. Includes 2 Demos/approaches.
+Documentation for Coder Academy Term 1 Portfolia Project.
+A website written in HTML/CSS about myself (Paul Meier)
+
+## Contributors
+| [![Paul Meier](/assets/paul-meier-70px-70px.jpg)](https://github.com/fiterr-paul) |
+|-----------|
+| Paul Meier |
 
 ##Dependencies
 Projects uses scss + Bourbon.
